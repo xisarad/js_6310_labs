@@ -1,21 +1,36 @@
-# EduHelper — обновлённый конфиг для ESLint и Jest
 
-Этот архив содержит исправленные конфигурации для запуска:
-- `npm run lint`
-- `npm run test`
-- `npm run test:coverage`
+# EduHelper — Telegram-бот для студентов (Complete)
 
-## Что сделано
-✅ ESLint теперь использует новый формат `eslint.config.js`  
-✅ Jest настроен для ESM (Node 18+ поддерживается)  
-✅ Скрипты в package.json исправлены
+Полная версия проекта с конечным автоматом для `/homework`, сохранением состояния в JSON,
+напоминаниями о дедлайнах, простым API на express, ESLint и Jest для тестов.
 
-## Использование
-1. Распакуйте архив в корень проекта (где ваш src/, data/ и tests/).
-2. Замените существующие файлы `eslint.config.js`, `jest.config.js` и `package.json`.
-3. Выполните:
-   ```bash
-   npm install
-   npm run lint
-   npm test
-   ```
+## Команды бота
+- /start — приветствие
+- /courses — список курсов, прогресс и дедлайны
+- /materials — учебные материалы
+- /homework — начать диалог по отправке домашней работы (многошаговый)
+- /status — посмотреть статус своих сдач и комментарии преподавателя
+
+## Запуск
+1. Скопируйте `.env.example` в `.env` и укажите `BOT_TOKEN`.
+
+2. Установите зависимости:
+
+```bash
+npm install
+```
+
+3. Запустите в режиме разработки:
+
+```bash
+npm run dev
+```
+
+4. Запустите линтер и тесты:
+
+```bash
+npm run lint
+npm run lint:fix
+npm test
+npm run test:coverage
+```
