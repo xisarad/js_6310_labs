@@ -1,0 +1,12 @@
+[
+  {
+    "title": "JavaScript Basics",
+    "progress": 70,
+    "deadline": null
+  },
+  {
+    "title": "Node.js Advanced",
+    "progress": 45,
+    "deadline": "2025-11-11T12:00:00.000Z"
+  }
+]
