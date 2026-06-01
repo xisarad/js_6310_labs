@@ -39,7 +39,9 @@ npm run lint
 npm run lint:fix
 
 ## Примеры работы
-1.png
+screenshots/1.png
+screenshots/2.png
+screenshots/3.png
 
 ## Технологии
 - Node.js (ES Modules)
