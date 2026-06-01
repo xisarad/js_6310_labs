@@ -1,0 +1,103 @@
+/* styles.css - Обновленная версия для kai.ru */
+
+/* Базовые стили для тёмной темы */
+.kai-dark-theme,
+.kai-dark-theme body {
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+}
+
+/* Контейнеры и основные блоки */
+.kai-dark-theme .container,
+.kai-dark-theme .content,
+.kai-dark-theme main,
+.kai-dark-theme [class*="container"] {
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+}
+
+/* Шапка, навигация, футер */
+.kai-dark-theme header,
+.kai-dark-theme .header,
+.kai-dark-theme footer,
+.kai-dark-theme .footer,
+.kai-dark-theme nav,
+.kai-dark-theme .navigation,
+.kai-dark-theme .top-menu,
+.kai-dark-theme .main-menu {
+    background-color: #1e1e1e !important;
+    border-bottom: 1px solid #333 !important;
+}
+
+/* Ссылки */
+.kai-dark-theme a:not(.kai-dark-toggle) {
+    color: #bb86fc !important;
+}
+
+.kai-dark-theme a:hover:not(.kai-dark-toggle) {
+    color: #e0e0e0 !important;
+}
+
+/* Заголовки */
+.kai-dark-theme h1,
+.kai-dark-theme h2,
+.kai-dark-theme h3,
+.kai-dark-theme h4,
+.kai-dark-theme h5,
+.kai-dark-theme h6,
+.kai-dark-theme .title,
+.kai-dark-theme .news-title {
+    color: #ffffff !important;
+}
+
+/* Карточки новостей и событий (блоки-публикаторы) */
+.kai-dark-theme [class*="news"],
+.kai-dark-theme [class*="event"],
+.kai-dark-theme [class*="card"],
+.kai-dark-theme .item,
+.kai-dark-theme .block {
+    background-color: #1e1e1e !important;
+    color: #ccc !important;
+    border: 1px solid #333 !important;
+    border-radius: 8px !important;
+}
+
+/* Кнопки */
+.kai-dark-theme button:not(.kai-dark-toggle),
+.kai-dark-theme .btn,
+.kai-dark-theme [class*="button"] {
+    background-color: #333 !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #bb86fc !important;
+}
+
+/* Формы и поля ввода */
+.kai-dark-theme input,
+.kai-dark-theme textarea,
+.kai-dark-theme select {
+    background-color: #2c2c2c !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #555 !important;
+}
+
+/* Стили для кнопки переключения темы (всегда поверх) */
+.kai-dark-toggle {
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 20px !important;
+    z-index: 999999 !important;
+    background-color: #bb86fc !important;
+    color: #121212 !important;
+    border: none !important;
+    border-radius: 30px !important;
+    padding: 10px 18px !important;
+    cursor: pointer !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3) !important;
+    transition: 0.2s !important;
+}
+.kai-dark-toggle:hover {
+    background-color: #9b59b6 !important;
+    transform: scale(1.02) !important;
+}

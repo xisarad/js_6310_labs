@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "KAI Dark Theme",
+  "version": "1.0",
+  "description": "Тёмная тема для сайта КНИТУ-КАИ",
+  "permissions": ["activeTab", "storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://kai.ru/*", "https://www.kai.ru/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ]
+}
