@@ -1,9 +1,8 @@
 # Курсовая работа: EduHelper
 
 ## Ссылка на Pull Request
-https://github.com/xisarad/eduhelper-platform/pull/1
+https://github.com/xisarad/eduhelper-platform/pull/2
 
 ## Статус
-✅ Pull Request создан: lab6 → main
-✅ Ветка main — пустая
-✅ Ветка lab6 — содержит архитектуру и MVP
+✅ Pull Request #2 создан: lab6 → main
+✅ Файлы architecture.md и mvp.md полные
